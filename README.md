@@ -32,6 +32,7 @@
 		pip install matplotlib
 		pip install protobuffer
 
+		
 ##### Step 4:
 ```
 => Protobuf Compilation:
@@ -50,7 +51,8 @@
      python setup.py install
 => # From tensorflow/models/research/slim  folder in command line   run the below command :
      python setup.py install
-        
+
+	 
 ##### Step 6:
 ```
 => Testing the Installation
@@ -58,7 +60,8 @@
 	You can test that you have correctly installed the Tensorflow Object Detection API by running the following command:
 		python object_detection/builders/model_builder_test.py
 
-=> If everything in the above steps go fine then Tensorflow object detection Api is successfully installed in your machine. Now we will	proceed to create our own 	Object detection system with our custom data set.
+=> If everything in the above steps go fine then Tensorflow object detection Api is successfully installed in your machine. 
+   Now we will	proceed to create our own 	Object detection system with our custom data set.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 ## Steps for creating our own object detection app with custom data set:
@@ -67,11 +70,11 @@
 ```
 => In this repository I have created the Elephant detection app.So I downloaded the images of the elephants from the google and put it in the images folder of this repository.
 
-=>Go to the data folder of this repository and follow the instructions given in the DataSet_Creation_Procedure.md file to create the dataset which could be feed to the Tensorflow object detection Api.
+=>Go to the data folder of this repository and follow the instructions given in the DataSet_Creation_Procedure.md file.
+  and create the dataset which could be feed to the Tensorflow object detection Api.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 	
-		
 ##### Some of the Limitations of my App:
 ```
 => Since I trained this with less data set and for only 40 minutes the accuracy will be sometimes less.But if you train with large dataset and with huge GPU power then accuracy will be high.
