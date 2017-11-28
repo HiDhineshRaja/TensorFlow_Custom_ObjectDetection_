@@ -1,0 +1,26 @@
+<annotation>
+	<folder>elephant</folder>
+	<filename>0010.jpg</filename>
+	<path>F:\Dhinesh_Raja\notes\Computer_Vision\Object_Detection_tool\My_Objectdetection_App\dataset_preparation\elephant_dataset\images\0010.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>elephant</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>49</xmin>
+			<ymin>113</ymin>
+			<xmax>640</xmax>
+			<ymax>478</ymax>
+		</bndbox>
+	</object>
+</annotation>
