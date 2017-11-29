@@ -37,11 +37,14 @@
 
 => Install the following through pip install command.
 
-
 pip install pillow.
+
 pip install lxml.
+
 pip install jupyter.
+
 pip install matplotlib.
+
 pip install protobuffer.
 
 
@@ -49,10 +52,12 @@ pip install protobuffer.
 ### Step 4:
 
 => Protobuf Compilation:
-   The Tensorflow Object Detection API uses Protobufs to configure model and training parameters. Before the framework can be used, the Protobuf libraries must be compiled. This should be done by running the following command from the tensorflow/models/research/ directory:
 
-   # From tensorflow/models/research/  folder in command line   run the below command :
-	protoc object_detection/protos/*.proto --python_out=.  
+The Tensorflow Object Detection API uses Protobufs to configure model and training parameters. Before the framework can be used, the Protobuf libraries must be compiled. This should be done by running the following command from the tensorflow/models/research/ directory:
+
+=> From tensorflow/models/research/  folder in command line   run the below command.
+
+protoc object_detection/protos/*.proto --python_out=.  
 
 => If you are getting error in running the above then run the above command for individual .proto files one by one in that location as follows:
    protoc object_detection/protos/anchor_generator.proto --python_out=.
@@ -61,23 +66,29 @@ pip install protobuffer.
   
 ### Step 5:
 
-=> # From tensorflow/models/research/  folder in command line   run the below command :
-     python setup.py install
-=> # From tensorflow/models/research/slim  folder in command line   run the below command :
-     python setup.py install.
+=>From tensorflow/models/research/  folder in command line   run the below command :
+
+python setup.py install
+	 
+=>From tensorflow/models/research/slim  folder in command line   run the below command :
+
+python setup.py install.
 
 
 
 	 
 ### Step 6:
 
-=> Testing the Installation
-	# From tensorflow/models/research/
-	You can test that you have correctly installed the Tensorflow Object Detection API by running the following command:
-		python object_detection/builders/model_builder_test.py
+=> Testing the Installation.
+
+#From tensorflow/models/research/
+
+=> You can test that you have correctly installed the Tensorflow Object Detection API by running the following command:
+
+python object_detection/builders/model_builder_test.py
 
 => If everything in the above steps go fine then Tensorflow object detection Api is successfully installed in your machine. 
-   Now we will	proceed to create our own 	Object detection system with our custom data set.
+   Now we will	proceed to create our own Object detection system with our custom data set.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -96,6 +107,7 @@ pip install protobuffer.
 ### Some of the Limitations of my App:
 
 => Since I trained this with less data set and for only 40 minutes the accuracy will be sometimes less.But if you train with large dataset and with huge GPU power then accuracy will be high.
+
 => I trained to detect only elephant. similarly we could train with defferent class of images to detect different objects.
 
 
