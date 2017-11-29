@@ -10,10 +10,12 @@
 ### Step 1:
 
 => Install Tensorflow latest version using the below command:
-	-> To install the CPU-only version of TensorFlow, enter the following command:
-		-> C:\> pip3 install --upgrade tensorflow	
-	-> To install the GPU version of TensorFlow, enter the following command:
-		-> C:\> pip3 install --upgrade tensorflow-gpu
+=>To install the CPU-only version of TensorFlow, enter the following command:
+```
+     C:\> pip3 install --upgrade tensorflow	
+=>To install the GPU version of TensorFlow, enter the following command:
+```
+     C:\> pip3 install --upgrade tensorflow-gpu
 
 
 		
