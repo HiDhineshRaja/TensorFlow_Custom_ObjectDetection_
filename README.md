@@ -10,10 +10,10 @@
 ### Step 1:
 
 => Install Tensorflow latest version using the below command.
-=>To install the CPU-only version of TensorFlow, enter the following command.
+=> To install the CPU-only version of TensorFlow, enter the following command.
 
-     C:\> pip3 install --upgrade tensorflow	
-=>To install the GPU version of TensorFlow, enter the following command.
+     C:\> pip3 install --upgrade tensorflow.	
+=> To install the GPU version of TensorFlow, enter the following command.
 
      C:\> pip3 install --upgrade tensorflow-gpu
 
@@ -22,21 +22,27 @@
 ### Step 2:
 
 => Object Detection Api will not be installed when we use pip installation of tensorflow. 
-   So clone the Object detection tensorflow gitub repository  by going to this link [TensorFlow's Object Detection API] (https://github.com/tensorflow/models).
+
+=> So clone the Object detection tensorflow gitub repository  by going to this link [TensorFlow's Object Detection API] (https://github.com/tensorflow/models).
+
 => This should be cloned to the location where Tensorflow is installed. In my laptop it is installed in this location.
-   (C:\Users\bizruntime45\AppData\Local\Programs\Python\Python35\Lib\site-packages\tensorflow)
-   So I cloned the  [TensorFlow's Object Detection API] (https://github.com/tensorflow/models) into the above location.
+
+   (C:\Users\bizruntime45\AppData\Local\Programs\Python\Python35\Lib\site-packages\tensorflow).
+   
+=> So I cloned the  [TensorFlow's Object Detection API] (https://github.com/tensorflow/models) into the above location.
 
 
    
 ### Step 3:
 
-=> Install the following through pip install command:
-		-> pip install pillow
-		-> pip install lxml
-		-> pip install jupyter
-		-> pip install matplotlib
-		-> pip install protobuffer.
+=> Install the following through pip install command.
+
+```
+pip install pillow.
+pip install lxml.
+pip install jupyter.
+pip install matplotlib.
+pip install protobuffer.
 
 
 		
